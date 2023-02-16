@@ -66,6 +66,7 @@ h3 {
 
 .reaction-icons {
     display: flex;
+    justify-content: center;
     margin: 10px 0;
     height: auto;
     
