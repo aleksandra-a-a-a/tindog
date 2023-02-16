@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: whitesmoke;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-icon-logo {
+    padding: 1em;
+    width: 6em;
+    
+}
+.header-icon {
+    width: 10px;
+    padding: 1em;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+#dog-photo {
+    width:85%;
+    border-radius: 40px;
+    padding: 10px 0;
+}
+
+.dog-data {
+    position: relative;
+    color: white;
+    width: 100%;
+       
+}
+.desc {
+    position: absolute;
+    color: white;
+    bottom: 4%;
+    left: 15%;
+    text-align: left;
+    font-size: 0.9rem;
+    width: 70%;
+    padding-right: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+p {
+    font-weight: 100;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+
+h3 {
+    color: gray;
+}
+
+.reaction-icons {
+    display: flex;
+    margin: 10px 0;
+    
+}
+
+#cross,
+#love {
+    font-size: 1.5rem;
+    margin: 1em;
+}
+
+#cross-btn,
+#love-btn {
+    display: flex;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: white;
+    box-shadow: 0px 0px 38px 0px rgba(2, 2, 2, 0.35);
+    border:none;
+    
+}
+
+#cross-btn:active,
+#cross-btn:hover
+{
+    background: #F5A3B9;
+    outline: none;
+}
+
+#love-btn:active,
+#love-btn:hover
+{
+    background: rgba(126, 230, 163, 0.5);
+    outline: none;
+}
+
+
+
+#like, 
+#nope {
+    box-sizing: border-box;
+    position: absolute;
+    left: 14px;
+    top: 121.96px;
+    border-radius: 10.3807px;
+    transform: rotate(-30deg);
+    width: 50%;
+    margin: 3%;
+    display: none;
+}
+
+.profile-pic {
+    width: 40%;
+    border-radius: 100%;
+    margin-top: 10px;
+    border: solid 6px rgb(237, 75, 110);
+}
+
+.settings-bar {
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-around
+}
+
+#settings-icon, 
+#edit-icon,
+#photo-icon {
+    width: 30%;
+}
+
